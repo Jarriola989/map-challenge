@@ -1,0 +1,40 @@
+<testsuites name="jest tests" tests="5" failures="2" time="4.132">
+  <testsuite name="Hackermaps" errors="0" failures="2" skipped="0" timestamp="2020-08-07T23:18:34" time="4.132" tests="5">
+    <testcase classname="Hackermaps Should render all the locations in the list" name="Hackermaps Should render all the locations in the list" time="0.046">
+    </testcase>
+    <testcase classname="Hackermaps Should have correct buttons for each location" name="Hackermaps Should have correct buttons for each location" time="0.017">
+    </testcase>
+    <testcase classname="Hackermaps Should move the location down on clicking the down button" name="Hackermaps Should move the location down on clicking the down button" time="0.028">
+    </testcase>
+    <testcase classname="Hackermaps Should move the location up on clicking the up button" name="Hackermaps Should move the location up on clicking the up button" time="0.012">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  &quot;Alcatraz Island, San Francisco, CA, USA&quot;
+Received:
+  &quot;PIER 39, The Embarcadero, San Francisco, CA, USA&quot;
+    at Object.&lt;anonymous&gt; (/Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/src/App.test.js:97:82)
+    at Object.asyncFn (/Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should be in correct state after a series of actions" name="Hackermaps Should be in correct state after a series of actions" time="0.016">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  &quot;PIER 39, The Embarcadero, San Francisco, CA, USA&quot;
+Received:
+  &quot;Golden Gate Bridge, San Francisco, CA, USA&quot;
+    at Object.&lt;anonymous&gt; (/Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/src/App.test.js:119:82)
+    at Object.asyncFn (/Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Volumes/Janeth/react-projects/4e5e0824-7523-4d86-b930-26b264f57779/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
